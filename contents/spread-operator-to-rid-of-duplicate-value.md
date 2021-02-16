@@ -1,12 +1,6 @@
----
-extends: _layouts.post
-section: content
-title: Spread operator to get rid of duplicate value
-date: 2020-05-27
-cover_image: /assets/posts/spread-operator-to-get-rid-of-duplicate-value.jpg
-description: Javascript spread operator to get rid of duplicate value
-categories: [javascript]
----
+<img src="../assets/spread-operator-to-get-rid-of-duplicate-value.png" alt="Thumbnail of content" align="center">
+
+### Javascript spread operator to get rid of duplicate value
 
 Distribute the operator to eliminate duplicate values, with javascript we only need to write one line of code like this:
 

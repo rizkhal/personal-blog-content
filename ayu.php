@@ -56,7 +56,7 @@ class Ayu
         $results = file_put_contents("contents/{$slug}.md", $contents);
 
         if ($results) {
-            print("Successfully create file 🥳 \n");
+            print("Successfully create file 🥳 🎉 \n");
             return;
         }
 

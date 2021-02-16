@@ -1,13 +1,6 @@
----
-extends: _layouts.post
-section: content
-title: Useful git commands
-date: 2020-05-26
-featured: true
-cover_image: /assets/posts/useful-git-commands.jpeg
-description: Useful git commands for developer
-categories: [git]
----
+<img src="../assets/useful-git-commands.png" alt="Thumbnail of content" align="center">
+
+### Useful git commands for developer
 
 By far, the most widely used modern version control system in the world today is Git. Git is a mature, actively maintained open source project originally developed in 2005 by Linus Torvalds, the famous creator of the Linux operating system kernel.
 

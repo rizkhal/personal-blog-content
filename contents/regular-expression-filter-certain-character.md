@@ -1,12 +1,6 @@
----
-extends: _layouts.post
-section: content
-title: Regular expression certain character
-date: 2020-05-26
-cover_image: /assets/posts/regular-expression-certain-character.jpeg
-description: Regular expression certain character
-categories: [javascript]
----
+<img src="../assets/regular-expression-certain-character.png" alt="Thumbnail of content" align="center">
+
+### Regular expression certain character
 
 What would a regex string look like if you were provided a random string such as :
 

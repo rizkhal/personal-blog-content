@@ -1,12 +1,6 @@
----
-extends: _layouts.post
-section: content
-title: Javascript nested functions
-date: 2020-05-26
-cover_image: /assets/posts/javascript-nested-function.jpg
-description: Regular expression certain character
-categories: [javascript]
----
+<img src="../assets/javascript-nested-function.png" alt="Thumbnail of content" align="center">
+
+## Javascript nested function
 
 A function is called **nested** when it is created inside another function, it is easily possible to do this with javascript. We can use it to organize our code, like this:
 
