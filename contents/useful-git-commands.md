@@ -1,6 +1,6 @@
-%title:Javascript nested function
+%title:Useful git commands for developer
 %cover:useful-git-commands.png
-%description:This is the example of description
+%description:Here's a list of important git commands for developers to know
 %date:20-02-2020
 ==========
 

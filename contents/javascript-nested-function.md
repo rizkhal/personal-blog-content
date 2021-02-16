@@ -1,7 +1,6 @@
 %title:Javascript nested function
 %cover:javascript-nested-function.png
-%description:This is the example of description
-%date:20-02-2020
+%description:Javascript call a function inside a function
 ==========
 
 ## Javascript nested function

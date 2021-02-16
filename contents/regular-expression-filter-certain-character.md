@@ -1,6 +1,6 @@
-%title:Javascript nested function
+%title:Regular expression certain character
 %cover:regular-expression-certain-character.png
-%description:This is the example of description
+%description:Oh shit, regex is so hard
 %date:20-02-2020
 ==========
 

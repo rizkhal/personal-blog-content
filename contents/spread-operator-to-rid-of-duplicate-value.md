@@ -1,6 +1,6 @@
-%title:Javascript nested function
+%title:Javascript spread operator to get rid of duplicate value
 %cover:spread-operator-to-get-rid-of-duplicate-value.png
-%description:This is the example of description
+%description:Filter array with only one line in javascript
 %date:20-02-2020
 ==========
 
