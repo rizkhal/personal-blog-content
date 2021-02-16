@@ -10,15 +10,15 @@ declare(strict_types=1);
  * php Skeleton.php --title="The amazing title" --cover="img id from https://i.imgflip.com"
  */
 
-if (! function_exists('dd')) {
+if (!function_exists('dd')) {
     /**
      * Die dump pretty print debugging
      * @return array
      */
     function dd()
     {
-        array_map(function($x) {
-                print_r($x);
+        array_map(function ($x) {
+            print_r($x);
         }, func_get_args());
         die;
     }
@@ -33,7 +33,7 @@ class Ayu
      */
     public function __construct($argument)
     {
-        preg_match('~^.+?\.php.--title=(.*).--cover=(.*)~', implode(' ', $argument), $matches);        
+        preg_match('~^.+?\.php.--title=(.*).--cover=(.*)~', implode(' ', $argument), $matches);
 
         $this->build($matches);
     }
@@ -53,7 +53,7 @@ class Ayu
         $stub = file_get_contents('stubs/ayu.stub');
 
         $contents = $this->replaceCover($stub, $id, $slug)->replaceTitle($stub, $title);
-        file_put_contents("contents/{$slug}.md", $contents);
+        file_put_contents("contents/" . $slug . "-" . time() . ".md", $contents);
     }
 
     /**
@@ -70,7 +70,7 @@ class Ayu
         $stub = str_replace(":cover", $filename, $stub);
         return $this;
     }
-    
+
     /**
      * Replace title
      *
@@ -80,9 +80,9 @@ class Ayu
      */
     protected function replaceTitle(string &$stub, string $title): string
     {
-        return str_replace(":title", $title, $stub);
+        return str_replace(":title", ucfirst($title), $stub);
     }
-    
+
     /**
      * Download image
      *
