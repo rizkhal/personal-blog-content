@@ -1,4 +1,5 @@
 %title:Useful git commands for developer
+%date:January 11th, 2020
 %cover:useful-git-commands.png
 %description:Here's a list of important git commands for developers to know
 %date:20-02-2020

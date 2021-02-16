@@ -1,4 +1,5 @@
 %title:Regular expression certain character
+%date:June 12th, 2020
 %cover:regular-expression-certain-character.png
 %description:Oh shit, regex is so hard
 %date:20-02-2020

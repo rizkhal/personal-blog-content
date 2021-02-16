@@ -1,4 +1,5 @@
 %title:Javascript nested function
+%date:April 20th, 2020
 %cover:javascript-nested-function.png
 %description:Javascript call a function inside a function
 ==========
