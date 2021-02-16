@@ -10,7 +10,7 @@ categories: [php]
 
 ### Apa itu "&" pada fungsi di php ?
 Itu bisa disebut fungsi argumen, fungsi yang parameternya menggunakan simbol `&` akan dikirim dengan referensinya,
-oleh karena itu jika nilai atau value dari argumen didalam fungsi diubah maka nilai itu tidak bisa diubah diluar fungsi.
+oleh karena itu jika nilai atau value dari argumen didalam fungsi diubah, nilai tersebut tidak bisa diubah diluar fungsi.
 
 ### Bagaimana cara menggunakannya ?
 Cara menggunakannya dengan menambahkan simbol `&` sebelum parameter itu direferensikan.
@@ -39,7 +39,7 @@ class Foo
 new Foo(); // result: Halo Ayu.
 
 ```
-Jika kita coba meng-override property `$say` setelah method `sayHelo()` dieksekusi maka hasilnya tidak akan ada perubahan.
+Jika kita coba meng-override property `$say` setelah method `sayHelo()` dieksekusi, hasilnya tidak akan ada perubahan.
 Ini juga bisa kita gunakan untuk mengubah value dari `array`, cara nya cukup dengan menambahkan simbol `&` setelah `array_expression` ditulis.
 
 ### Contoh

@@ -53,7 +53,14 @@ class Ayu
         $stub = file_get_contents('stubs/ayu.stub');
 
         $contents = $this->replaceCover($stub, $id, $slug)->replaceTitle($stub, $title);
-        file_put_contents("contents/" . $slug . "-" . time() . ".md", $contents);
+        $results = file_put_contents("contents/{$slug}.md", $contents);
+
+        if ($results) {
+            print("Successfully create file 🥳 \n");
+            return;
+        }
+
+        throw new \Exception("Error..", 1);
     }
 
     /**
@@ -109,7 +116,8 @@ class Ayu
      */
     protected function generateSlug(string $filename): string
     {
-        return str_replace(' ', '-', $filename);
+        $filename = str_replace(' ', '-', $filename);
+        return $filename . "-" . time();
     }
 }
 
