@@ -1,4 +1,8 @@
-<img src="../assets/javascript-nested-function.png" alt="Thumbnail of content" align="center">
+%title:Javascript nested function
+%cover:javascript-nested-function.png
+%description:This is the example of description
+%date:20-02-2020
+==========
 
 ## Javascript nested function
 

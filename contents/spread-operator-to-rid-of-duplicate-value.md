@@ -1,4 +1,8 @@
-<img src="../assets/spread-operator-to-get-rid-of-duplicate-value.png" alt="Thumbnail of content" align="center">
+%title:Javascript nested function
+%cover:spread-operator-to-get-rid-of-duplicate-value.png
+%description:This is the example of description
+%date:20-02-2020
+==========
 
 ### Javascript spread operator to get rid of duplicate value
 

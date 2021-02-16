@@ -1,4 +1,8 @@
-<img src="../assets/useful-git-commands.png" alt="Thumbnail of content" align="center">
+%title:Javascript nested function
+%cover:useful-git-commands.png
+%description:This is the example of description
+%date:20-02-2020
+==========
 
 ### Useful git commands for developer
 

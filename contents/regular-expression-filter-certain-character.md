@@ -1,4 +1,8 @@
-<img src="../assets/regular-expression-certain-character.png" alt="Thumbnail of content" align="center">
+%title:Javascript nested function
+%cover:regular-expression-certain-character.png
+%description:This is the example of description
+%date:20-02-2020
+==========
 
 ### Regular expression certain character
 
