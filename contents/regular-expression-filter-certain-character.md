@@ -6,8 +6,6 @@
 %date:20-02-2020
 ==========
 
-### Regular expression certain character
-
 What would a regex string look like if you were provided a random string such as :
 
 ```javascript

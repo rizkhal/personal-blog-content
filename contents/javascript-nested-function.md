@@ -5,8 +5,6 @@
 %description:Javascript call a function inside a function
 ==========
 
-## Javascript nested function
-
 A function is called **nested** when it is created inside another function, it is easily possible to do this with javascript. We can use it to organize our code, like this:
 
 ```javascript

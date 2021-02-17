@@ -6,8 +6,6 @@
 %date:20-02-2020
 ==========
 
-### Javascript spread operator to get rid of duplicate value
-
 Distribute the operator to eliminate duplicate values, with javascript we only need to write one line of code like this:
 
 ```javascript
