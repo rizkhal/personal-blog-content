@@ -1,3 +1,4 @@
 /.phpintel
+/example
 .DS_Store
 *.sh

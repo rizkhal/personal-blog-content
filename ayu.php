@@ -7,7 +7,7 @@ declare(strict_types=1);
  * 
  * HOW TO USE IT ?
  * type in console:
- * php Skeleton.php --title="The amazing title" --cover="img id from https://i.imgflip.com"
+ * php ayu.php --title="The amazing title" --cover="img id from https://i.imgflip.com"
  */
 
 if (!function_exists('dd')) {
@@ -74,7 +74,7 @@ class Ayu
     {
         $filename = $this->downloadCover($id, $filename);
 
-        $stub = str_replace(":cover", $filename, $stub);
+        $stub = str_replace("%cover", $filename, $stub);
         return $this;
     }
 
@@ -87,7 +87,7 @@ class Ayu
      */
     protected function replaceTitle(string &$stub, string $title): string
     {
-        return str_replace(":title", ucfirst($title), $stub);
+        return str_replace("%title", ucfirst($title), $stub);
     }
 
     /**
