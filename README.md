@@ -14,7 +14,7 @@ php ayu.php --title="The amazing title" --cover="442ch9"
 ```
 
 This number **442ch9** is id from [imgflip](https://imgflip.com/i/442ch9)
-I use [imgflip](https://imgflip.com/i/442ch9) for generate cover using meme
+I use [imgflip](https://imgflip.com/i/442ch9) for generate cover using meme awokward
 
 
 
