@@ -47,4 +47,6 @@ The result look like
 
 ![Example Picture 2](https://i.ibb.co/ZWHHFsK/Screenshot-from-2021-05-10-14-53-20.png)
 
-Thanks for reading me 💛
+<br/>
+
+Thanks for reading me 💞
