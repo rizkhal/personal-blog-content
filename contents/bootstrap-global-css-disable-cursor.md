@@ -1,52 +1,38 @@
-%title:Custom select2 icon
-%date:May 10th, 2021
-%slug:custom-select2-icon
-%cover:custom-select2-icon.png
-%description:How to custom select2 icon
+%title:Useful git commands for developer
+%date:January 11th, 2020
+%slug:useful-git-commands-asw
+%cover:useful-git-commands.png
+%description:Here's a list of important git commands for developers to know
+%date:20-02-2020
 ==========
 
-Ok, just go ahead make select option and make sure you have read to [select2 documentation](https://select2.org/getting-started/installation).
 
-Lets write select option
+By far, the most widely used modern version control system in the world today is Git. Git is a mature, actively maintained open source project originally developed in 2005 by Linus Torvalds, the famous creator of the Linux operating system kernel.
 
-```php
-<div class="col">
-  <div class="form-group custom-select-icon">
-    <select class="custom-select" id="search-student">
-      <option></option>
-      @foreach ($students as $student)
-        <option value="{{ $item->id }}">{{ $student->name }}</option>
-      @endforeach
-    </select>
-  </div>
-</div>
+```plaintext
+* push into remote branch
+$ git push remote-name branch-name
+
+* push into remote master branch from local development branch
+$ git push remote-name dev:master
+
+* delete remote branch
+$ git push remote-name --delete branch-name or $ git push remote-name :branch-name
+
+* delete local and remote branch
+$ git remote-name -d -r
+
+* check commit changed
+$ git diff [commit1] [commit2] or [branch-name1] [branch-name2]
+
+* remove untracked file
+$ git clean -n
+
+* reset to spesific head
+* option: --hard, --mixed or only reset
+$ git reset --soft HEAD~number_of_commits
+
+* show pretty graph on terminal
+* make your alias for simple command
+$ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 ```
-
-Lets write custom css for class `custom-select-icon`
-
-```css
-.custom-select-icon .select2-selection__arrow {
-  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e")
-    no-repeat right 0.75rem center/8px 10px;
-}
-```
-
-Lets write javascript for select2
-
-```javascript
-$("#search-student").select2({
-  allowClear: false,
-  placeholder: "Pilih Siswa",
-});
-```
-
-The result look like
-![Example Picture 1](https://i.ibb.co/TcxDdXw/Screenshot-from-2021-05-10-14-53-00.png)
-
-<br/>
-
-![Example Picture 2](https://i.ibb.co/ZWHHFsK/Screenshot-from-2021-05-10-14-53-20.png)
-
-<br/>
-
-Thanks for reading me 💞
