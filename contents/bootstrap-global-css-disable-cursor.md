@@ -1,8 +1,8 @@
-%title:Disabled cursor using global css in bootstrap
-%date:May 19th, 2021
-%slug:disabled-cursor-using-global-css-in-bootstrap
-%cover:disabled-cursor-using-global-css-in-bootstrap.png
-%description:When bootstrap not auto not allowed cursor
+%title:Custom select2 icon
+%date:May 10th, 2021
+%slug:custom-select2-icon
+%cover:custom-select2-icon.png
+%description:How to custom select2 icon
 ==========
 
 Ok, just go ahead make select option and make sure you have read to [select2 documentation](https://select2.org/getting-started/installation).
