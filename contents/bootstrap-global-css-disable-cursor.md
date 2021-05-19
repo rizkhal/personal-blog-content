@@ -8,16 +8,16 @@
 I assume we all understand how to use bootstrap, so now we immediately create a button using bootstrap.
 
 ```html
-<button class="btn btn-primary">Yolo!</button>
+<button class="btn btn-primary">My Default Button!</button>
 ```
 
-Add a `disabled` attribute so that the button cannot be clicked.
+Add a disabled attribute so that the button cannot be clicked.
 
 ```html
-<button class="btn btn-primary" disabled>Yolo!</button>
+<button class="btn btn-primary" disabled>My Disable Button!</button>
 ```
 
-In some templates such as [Stisla!](https://demo.getstisla.com/bootstrap-buttons.html) cursor is not disabled.
+In some templates such as [stisla](https://demo.getstisla.com/bootstrap-buttons.html) cursor is not disabled.
 
 <br/>
 
