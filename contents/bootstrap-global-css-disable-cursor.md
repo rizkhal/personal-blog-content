@@ -17,9 +17,7 @@ Add a disabled attribute so that the button cannot be clicked.
 <button class="btn btn-primary" disabled>My Disable Button!</button>
 ```
 
-In some templates such as [stisla](https://demo.getstisla.com/bootstrap-buttons.html) cursor is not disabled.
-
-<br/>
+In some templates such as ![stisla](https://demo.getstisla.com/bootstrap-buttons.html) cursor is not disabled.
 
 Now let's make the cursor disabled globally using just one css line.
 
