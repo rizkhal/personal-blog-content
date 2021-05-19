@@ -5,6 +5,4 @@
 %description:When bootstrap not auto not allowed cursor
 ==========
 
-
-
-Thanks for reading me 💞
+asw
