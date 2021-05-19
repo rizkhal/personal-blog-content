@@ -7,19 +7,19 @@
 
 I assume we all understand how to use bootstrap, so now we immediately create a button using bootstrap.
 
-```php
+```html
 <button class="btn btn-primary">Yolo!</button>
 ```
 
 Add a `disabled` attribute so that the button cannot be clicked.
 
-```php
+```html
 <button class="btn btn-primary" disabled>Yolo!</button>
 ```
 
 In some templates such as [Stisla!](https://demo.getstisla.com/bootstrap-buttons.html) cursor is not disabled.
 
-<br />
+<br/>
 
 Now let's make the cursor disabled globally using just one css line.
 
