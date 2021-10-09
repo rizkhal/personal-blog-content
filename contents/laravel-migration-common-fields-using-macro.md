@@ -31,12 +31,14 @@ public function boot()
 }
 ```
 
-To use the common fields on migration, you just need to call using `$table->commonFields()`, for example:
+To use the common fields on migration, you just need to call using `$table->commonFields()`.
+<br />
+Example:
 
 ```php
 public function up()
 {
-   Schema::create('your_column_name', function (Blueprint $table) {
+   Schema::create('yourtables', function (Blueprint $table) {
       $table->id();
       $table->commonFields();
    });
@@ -46,4 +48,4 @@ public function up()
 It's save your time and clean code when you have many table and same column.
 
 <br />
-Thanks for reading me :revolving_hearts:
+Thanks for reading me :heart:
