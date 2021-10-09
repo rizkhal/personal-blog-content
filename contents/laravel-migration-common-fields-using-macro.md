@@ -11,7 +11,6 @@ Ok, we will make a provider to handle the macro, you can use `AppServiceProvider
 
 <br />
 Let's create provider:
-
 ```bash
 php artisan make:provider MacroServiceProvider
 ```
@@ -45,4 +44,5 @@ public function up()
 
 It's save your time and clean code when you have many table and same column.
 
-Thanks for reading me :fire:
+<br />
+Thanks for reading me :revolving_hearts:
