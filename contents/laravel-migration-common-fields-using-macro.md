@@ -11,6 +11,7 @@ Ok, we will make a provider to handle the macro, you can use `AppServiceProvider
 
 <br />
 Let's create provider:
+
 ```bash
 php artisan make:provider MacroServiceProvider
 ```
