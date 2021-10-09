@@ -7,12 +7,13 @@
 
 When we have same column on many table, we need to rewrite the column type and name on each table, this not efisient when you are a "programmer".
 
-Ok, we will make a provider to handle the macro, you can use `AppServiceProvider` to write it but i recomended using new `ServiceProvider` called `MacroServiceProvider` for consistency.
+Ok, we will make a provider to handle the macro, you can use `AppServiceProvider` to write it but i recomended using new `ServiceProvider` called `MacroServiceProvider` for consistency if you have many Provider.
 
-Let's create provider
+<br />
+Let's create provider:
 
 ```bash
-php artisan make:provder MacroServiceProvider
+php artisan make:provider MacroServiceProvider
 ```
 
 ```php
@@ -43,3 +44,5 @@ public function up()
 ```
 
 It's save your time and clean code when you have many table and same column.
+
+Thanks for reading me 🙃
