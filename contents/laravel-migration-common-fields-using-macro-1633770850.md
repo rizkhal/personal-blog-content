@@ -5,9 +5,9 @@
 %description:We well learn how to make common fields to laravel migration using laravel macro
 ==========
 
-When we have same column on many table, we need to rewrite the column type and name on each table, this not efisient when you are a "programmer"..
+When we have same column on many table, we need to rewrite the column type and name on each table, this not efisient when you are a "programmer".
 
-Ok, we will make a provider to handle the macro, you can use `AppServiceProvider` to write it but i recomended using new `ServiceProvider` called `MacroServiceProvider` for consistency..
+Ok, we will make a provider to handle the macro, you can use `AppServiceProvider` to write it but i recomended using new `ServiceProvider` called `MacroServiceProvider` for consistency.
 
 Let's create provider
 
@@ -31,7 +31,7 @@ public function boot()
 }
 ```
 
-To use the common fields on migration, you just need to call using `$table->commonFields()` like
+To use the common fields on migration, you just need to call using `$table->commonFields()`, for example:
 
 ```php
 public function up()
