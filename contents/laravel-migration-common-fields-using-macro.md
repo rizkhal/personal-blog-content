@@ -45,4 +45,4 @@ public function up()
 
 It's save your time and clean code when you have many table and same column.
 
-Thanks for reading me 🙃
+Thanks for reading me :fire:
