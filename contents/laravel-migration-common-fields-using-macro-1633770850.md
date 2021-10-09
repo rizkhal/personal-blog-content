@@ -1,46 +1,54 @@
-%title:Laravel migration common fields using macro
-%date:October 09th, 2021
-%slug:laravel-migration-common-fields-using-macro
-%cover:laravel-migration-common-fields-using-macro-1633770850.png
-%description:We well learn how to make common fields to laravel migration using laravel macro
+%title:Understanding object destructuring in javascript
+%date:February 23th, 2021
+%slug:understanding-object-destructuring-in-javascript-1614041545
+%cover:understanding-object-destructuring-in-javascript-1614041545.png
+%description:Destructuring object is bind a property from object to a or multiple variable
 ==========
 
-When we have same column on many table, we need to rewrite the column type and name on each table, this not efisient when you are a "programmer".
+Lets say we have an object like below
 
-Ok, we will make a provider to handle the macro, you can use `AppServiceProvider` to write it but i recomended using new `ServiceProvider` called `MacroServiceProvider` for consistency.
-
-Let's create provider
-
-```shell
-php artisan make:provder MacroServiceProvider
+```javascript
+const obj = {
+  post: {
+    title: "this is title",
+    body: "this is body",
+  },
+};
 ```
 
-```php
+And you want to get value of `title` and `body`.
 
-use Illuminate\Database\Schema\Blueprint;
+You can do like this
 
-public function boot()
-{
-   Blueprint::macro('commonFields', function () {
-      $this->timestamps();
-      $this->softDeletes();
-      $this->foreignUuid('created_by');
-      $this->foreignUuid('updated_by')->nullable();
-      $this->foreignUuid('deleted_by')->nullable();
-   });
-}
+```javascript
+const { post } = obj;
+
+console.log(post.title); // this is title
+console.log(post.body); // this is body
 ```
 
-To use the common fields on migration, you just need to call using `$table->commonFields()`, for example:
+Or you can do like this
 
-```php
-public function up()
-{
-   Schema::create('your_column_name', function (Blueprint $table) {
-      $table->id();
-      $table->commonFields();
-   });
-}
+```javascript
+const {
+  post: { title, body },
+} = obj;
+
+console.log(post.title); // this is title
+console.log(post.body); // this is body
 ```
 
-It's save your time and clean code when you have many table and same column.
+Because the `post` property is nested with `title` and `body`.
+
+We also can to get and set default value if propery doens't exists.
+
+```javascript
+const {
+  post: { title, body, author = "ayu" },
+} = obj;
+console.log(post.title); // this is title
+console.log(post.body); // this is body
+console.log(post.author); // ayu
+```
+
+If you don't set default value in `author` property, that it return `undefined`
