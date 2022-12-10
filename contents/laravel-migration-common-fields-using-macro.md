@@ -32,7 +32,7 @@ public function boot()
 ```
 
 To use the common fields on migration, you just need to call using `$table->commonFields()`.
-<br />
+
 Example:
 
 ```php
@@ -47,5 +47,5 @@ public function up()
 
 It's save your time and clean code when you have many table and same column.
 
-<br />
+
 Thanks for reading me :heart:
