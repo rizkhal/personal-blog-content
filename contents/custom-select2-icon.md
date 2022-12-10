@@ -45,11 +45,11 @@ $("#search-student").select2({
 \
 The result look like
 
-
+\n
 ![Example Picture 1](https://i.ibb.co/TcxDdXw/Screenshot-from-2021-05-10-14-53-00.png)
 
 \
 ![Example Picture 2](https://i.ibb.co/ZWHHFsK/Screenshot-from-2021-05-10-14-53-20.png)
 
 \
-Thanks for reading me ♥️
+Thanks for reading me ❤️
