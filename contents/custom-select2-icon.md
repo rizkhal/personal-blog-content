@@ -45,7 +45,7 @@ $("#search-student").select2({
 \
 The result look like
 
-\n
+\
 ![Example Picture 1](https://i.ibb.co/TcxDdXw/Screenshot-from-2021-05-10-14-53-00.png)
 
 \
