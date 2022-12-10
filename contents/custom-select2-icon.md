@@ -7,6 +7,7 @@
 
 Ok, just go ahead make select option and make sure you have read to [select2 documentation](https://select2.org/getting-started/installation).
 
+\
 Lets write select option
 
 ```php
@@ -22,6 +23,7 @@ Lets write select option
 </div>
 ```
 
+\
 Lets write custom css for class `custom-select-icon`
 
 ```css
@@ -40,13 +42,14 @@ $("#search-student").select2({
 });
 ```
 
+\
 The result look like
+
+
 ![Example Picture 1](https://i.ibb.co/TcxDdXw/Screenshot-from-2021-05-10-14-53-00.png)
 
-<br/>
-
+\
 ![Example Picture 2](https://i.ibb.co/ZWHHFsK/Screenshot-from-2021-05-10-14-53-20.png)
 
-<br/>
-
-Thanks for reading me 💞
+\
+Thanks for reading me ♥️
