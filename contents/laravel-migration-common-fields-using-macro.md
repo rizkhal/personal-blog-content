@@ -9,7 +9,7 @@ When we have same column on many table, we need to rewrite the column type and n
 
 Ok, we will make a provider to handle the macro, you can use `AppServiceProvider` to write it but i recomended using new `ServiceProvider` called `MacroServiceProvider` for consistency if you have many Provider.
 
-<br />
+\
 Let's create provider:
 
 ```bash
@@ -33,6 +33,7 @@ public function boot()
 
 To use the common fields on migration, you just need to call using `$table->commonFields()`.
 
+\
 Example:
 
 ```php
